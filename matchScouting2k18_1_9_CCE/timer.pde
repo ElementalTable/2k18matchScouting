@@ -1,13 +1,13 @@
 public class timer {
- // Fields
- float startTime=0;
- boolean timing;
- // Constructors
- public timer () {
-  timing = false;
-  startTime = 0;
+  // Fields
+  float startTime=0;
+  boolean timing;
+  // Constructors
+  public timer () {
+    timing = false;
+    startTime = 0;
   }
-  
+
   // Methods
   // set the starting time to millis()
   void startTimer() {
@@ -15,7 +15,7 @@ public class timer {
     //println("Started timer");
     timing = true;
   }
-  
+
   //return final time in seconds as a float:
   float endTimer() {
     float endTime = (millis()-startTime)/1000;
@@ -25,13 +25,13 @@ public class timer {
     return endTime;
     //reset automatically
   }
-  
+
   //return current time
   float currTime() {
     if (timing) {
       return (millis()-startTime)/1000;
     } else {
       return 0;
-    }   
+    }
   }
 }

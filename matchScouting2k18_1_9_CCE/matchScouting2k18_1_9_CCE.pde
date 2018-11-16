@@ -165,13 +165,13 @@ void setup () {
   pageSelect = new checkBoxGroup(buttonLocationsX*825, buttonLocationsY * 10, 200, 200, 200, 3, 0);
   nameSelect = new textButtonGroup(buttonLocationsX*600, buttonLocationsY * 210, 200, 200, 200, 5, 5, 0);
   matchNumber = new counter(buttonLocationsX*10, buttonLocationsY * 900, widthS*120, 80, 200, 200, 200, 0, 0, 0, 1, false);
-  teamNumber = new textBox(buttonLocationsX*10, buttonLocationsY * 200,widthS* 500,heightS* 60, 200, 200, 200, 0, 0, 0, "Team Number: ", false, true, false);
-  teamMember = new textBox(buttonLocationsX*10, buttonLocationsY * 300, widthS*500,heightS* 60, 200, 200, 200, 0, 0, 0, "Scout  Name: ", false, true, false);
+  teamNumber = new textBox(buttonLocationsX*10, buttonLocationsY * 200, widthS* 500, heightS* 60, 200, 200, 200, 0, 0, 0, "Team Number: ", false, true, false);
+  teamMember = new textBox(buttonLocationsX*10, buttonLocationsY * 300, widthS*500, heightS* 60, 200, 200, 200, 0, 0, 0, "Scout  Name: ", false, true, false);
   flipField = new checkBox(buttonLocationsX*140, buttonLocationsY * 700, 200, 200, 200, false, "Flip Field");
   //page 2
 
   times = new textBox(buttonLocationsX*1650, buttonLocationsY * 10, widthS* 200, heightS*60, 200, 200, 200, 0, 0, 0, "Time: ", false, false, false);
-  startMatchButton = new textButton(buttonLocationsX*1650, buttonLocationsY * 80, widthS*200,heightS* 60, 200, 200, 200, 0, 0, 0, "Start Match", false);
+  startMatchButton = new textButton(buttonLocationsX*1650, buttonLocationsY * 80, widthS*200, heightS* 60, 200, 200, 200, 0, 0, 0, "Start Match", false);
   loadMatchButton = new textButton(buttonLocationsX*390, buttonLocationsY * 1000, widthS*200, heightS*60, 200, 200, 200, 0, 0, 0, "Load Match", false);  
   //println(scoutNum);
 
@@ -190,23 +190,23 @@ void setup () {
   droppedBox = new timerEndingTextButton(buttonLocationsX*70, buttonLocationsY * 880, widthS*225, heightS*70, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
 
   //transparent buttons on page 2:
-  exchangeDropoff = new transparentButton(invisButtonLocationsX*75, invisButtonLocationsY * 106,widthS* 235,heightS* 630, false);
-  exchangePickup = new transparentButton(invisButtonLocationsX*310, invisButtonLocationsY * 106,widthS* 120, heightS*630, true);
-  cubePileZone = new transparentButton(invisButtonLocationsX*430, invisButtonLocationsY * 106,widthS* 120, heightS*630, true);
-  allianceSwitch = new transparentButton(invisButtonLocationsX*550, invisButtonLocationsY * 106,widthS* 150,heightS* 630, false);
+  exchangeDropoff = new transparentButton(invisButtonLocationsX*75, invisButtonLocationsY * 106, widthS* 235, heightS* 630, false);
+  exchangePickup = new transparentButton(invisButtonLocationsX*310, invisButtonLocationsY * 106, widthS* 120, heightS*630, true);
+  cubePileZone = new transparentButton(invisButtonLocationsX*430, invisButtonLocationsY * 106, widthS* 120, heightS*630, true);
+  allianceSwitch = new transparentButton(invisButtonLocationsX*550, invisButtonLocationsY * 106, widthS* 150, heightS* 630, false);
   cubeLineZone = new transparentButton(invisButtonLocationsX*700, invisButtonLocationsY * 106, widthS*130, heightS*630, true);
   scale = new transparentButton(invisButtonLocationsX*830, invisButtonLocationsY * 106, widthS*240, heightS*630, false);
-  opponentCubeLineZone = new transparentButton(invisButtonLocationsX*1070, invisButtonLocationsY * 106,widthS* 130,heightS*630, true);
+  opponentCubeLineZone = new transparentButton(invisButtonLocationsX*1070, invisButtonLocationsY * 106, widthS* 130, heightS*630, true);
   opponentSwitch = new transparentButton(invisButtonLocationsX*1200, invisButtonLocationsY * 106, widthS*150, heightS*630, false);
-  portal = new transparentButton(invisButtonLocationsX*1590, invisButtonLocationsY * 106, widthS*235,heightS* 630, true);
+  portal = new transparentButton(invisButtonLocationsX*1590, invisButtonLocationsY * 106, widthS*235, heightS* 630, true);
 
   //page 3
-  Points = new counter(buttonLocationsX * 440, buttonLocationsY * 200,widthS* 80,20, 200, 200, 200, 0, 0, 0, 0, false); 
+  Points = new counter(buttonLocationsX * 440, buttonLocationsY * 200, widthS* 80, 20, 200, 200, 200, 0, 0, 0, 0, false); 
   rankingPoints = new checkBoxGroup(buttonLocationsX * 400, buttonLocationsY * 430, 200, 200, 200, 4, -1);
   rating = new checkBoxGroup(buttonLocationsX * 620, buttonLocationsY * 148, 200, 200, 200, 5, -1);
   defenseRating =  new checkBoxGroup(buttonLocationsX * 410, buttonLocationsY * 810, 200, 200, 200, 5, -1);
   offenseRating =  new checkBoxGroup(buttonLocationsX * 410, buttonLocationsY * 1000, 200, 200, 200, 5, -1);
-  end = new textButton(buttonLocationsX * 1700, buttonLocationsY * 950,widthS* 200,heightS* 80, 30, 255, 30, 0, 0, 0, "End Match", false);
+  end = new textButton(buttonLocationsX * 1700, buttonLocationsY * 950, widthS* 200, heightS* 80, 30, 255, 30, 0, 0, 0, "End Match", false);
 }
 
 void mousePressed() {
